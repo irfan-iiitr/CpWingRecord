@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "cpwing",
+  "private_key_id": "232a46e4843f3ee8e2d0ccd0c1fb7aec2621548a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC2rg0JDlmW9aXw\ndNhGiVC6800PCJ61JRxF+0wa3wtN2BmQNYPAg0KzqJwxEu0L0PiuRfSetN+3AKfH\nvkKG8vP8aouqYoOw3sBGtjiwc5SYfkFvrdSSKttk79T6Nx6EVyWTICsgFUZSJtdS\nInuy1XbUE4vTngcYzqBGOt8H40yohatPgWkZbOrmJpxES+XkqBzPSf0KvDA6fYF1\nOu+CBxHWGv0KGLrb41Hvqh5u9uPK1IftoBqVoeUavS6WcyQmufeB0b0tj7H5Imlp\nWooE8mASr9L1I38pcf0xDs/suriGItp964nYsZsFyW9uVpHZ0oi/KyTQD0J/x3BA\nvx2bJKlZAgMBAAECggEAC8gxprNfu4Oau7r1gKXLk1CCLaWLLY4NWEV1v51CFTe0\n/QmOi/ngm/C/KM/FLR1sZI+2JWREsitfJtv9CMdzoq8xKdXnvh5nvUfJuTZYektY\n/L3JN3zUde/ynF62ClK1Ott4xz1yscq32XVy5Ues6Hmy63zw4pHftsKGREkjK70z\nGQSmut6nmZy6UedJymqsrg5uxhio8WGWRJ86t5mvzMT2E/lgrDhOLbq9zkXahbSd\nYol/EAKURUJPEimgHLAkDFmW0v6/S7joSzPygJJWfLFgt9u1gKOag1hCxmrPzQPS\nYNuBuNdBBQ/+ogGoLclC/pLAVGdhgMXdlc3Q/EqMeQKBgQD5shJQJOCO+iiiP58y\ngJFXetDMhbr87bx+g9uJZgWUX6o12njtJQ8kkrQy/+b/xUWuz33g7jkBRVghNVr7\nEwPxCw7uNMAEQpmXSSknZtbURQ46k2P7xrEitVMMNrKSgKaJBFQIr8w5GZQ+0HlC\nA7Fz9ohe8efhF+X5BW3xF2qxzQKBgQC7StFW+6v0s8HmW1joJCJK5zTfNWz7+xwk\nsggNlUipF7Xh46MySYoxTDqt8u8EHijR9jfZ47bXRBVWmDJwdvPO0J8lJC6OkGVt\n7wogW53PB23OnS1jKf9BxU3KZIu+dwxo7udn3NuJ+kc8lp6Vyv+2e7aDVl0MD004\nYoJGYSv5vQKBgCtwEAGDONGGsVTwbnhxp1cplXNO/GWN0hHMTH/NkMDsF4dA13Kh\n1M2O++w3Wm86WVH85LAhoScYcilsx8QP3cqsGs/Tu2fCUkfgQVmKaWsKDFyiUW12\ndlBMbQMd7NjRqqcBasEMHCH+0ixPRhj23YMH61dhC+67opU8nZCoezYtAoGBAKqv\nfqR067swbw9ORHIbLB1zJB4fhFkH+hf/H5OxbuybLSjV2g6kMorG29tXQDhSfAUN\nDM1H14PLCl9GiQExhvP98Gta1Asc0TMk2+etVt4r+QiI+aobxgLcmw5OH4TO3cJr\npvxirLjMHEu9QH1m6TAXArgi5t1svIUcUXluaTNJAoGAKV2Dalj1079DRI9dIMyS\ndZ0keruUE4QbkX2Kszhr1nWmVnsYZso5itCGrvlrM3O8G4dLHyA8xu1bXw50FqDL\naue8yVQ5GIhLm8cXCDuIJ1uUTNc5NRwSKyQD7/OUFFhF+fzpdFMI2z7p4P1xlVfX\n1YgFr7h3WX7vznf9HxdZ26U=\n-----END PRIVATE KEY-----\n",
+  "client_email": "cpwing@cpwing.iam.gserviceaccount.com",
+  "client_id": "112056624244328322077",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cpwing%40cpwing.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

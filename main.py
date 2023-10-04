@@ -4,8 +4,8 @@ import pandas as pd
 
 st.write("Hello, world!")
 
-users=['Irfan', 'Keshav']
-passwords={'Irfan':'1231','Keshav':'321'}
+users=['Irfan', 'Keshav','Koushik','Adarsh']
+passwords={'Irfan':'1231','Keshav':'321','Koushik':'6969' ,'Adarsh':'777'}
 
 login=False
 
@@ -21,21 +21,22 @@ def display(name,marks,prevmarks):
     x=pd.DataFrame(current_sheet.get_all_values())
     # st.dataframe(x)
     cell = current_sheet.find(name)
-    values_list = current_sheet.col_values(cell.col)
+    values_list = current_sheet.row_values(cell.row)
 
     # st.write(values_list)
     l=len(values_list)
 
 
-    newx=cell.col
+    newx=cell.row
     nx=int(newx)
     newy=l
     # st.write(nx,l,marks)
+    if l<=2:
+        l=3
 
-    
-    current_sheet.update_cell(l+1,nx,marks)
+    current_sheet.update_cell(nx,l+1,marks)
     if prevmarks:
-        current_sheet.update_cell(l,nx,prevmarks)
+        current_sheet.update_cell(nx,l,prevmarks)
     x=pd.DataFrame(current_sheet.get_all_values())
     st.table(x)
     st.write("updated")

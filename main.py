@@ -15,7 +15,7 @@ def dataa(nx,newy,today):
 
 def display(name,marks,prevmarks):
     st.write("Display")
-    gc=gspread.service_account(filename="C:\\Users\\dell\\Desktop\\s\\cp-record-bf5048351612.json")
+    gc=gspread.service_account(filename="cpnew.json")
     sh=gc.open_by_key("1zKYFxWl2AIXbwG-uwE26uGtt5p3TiTUU1c2fyM9nJ0g")
     current_sheet=sh.worksheet("Sheet1")
     x=pd.DataFrame(current_sheet.get_all_values())
@@ -32,7 +32,7 @@ def display(name,marks,prevmarks):
     newy=l
     # st.write(nx,l,marks)
     if l<=2:
-        l=3
+        l=2
 
     current_sheet.update_cell(nx,l+1,marks)
     if prevmarks:
